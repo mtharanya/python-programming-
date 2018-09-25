@@ -1,10 +1,10 @@
-def char_frequency(str1):
-       dict = {}
-         for n in str1:
-        keys = dict.keys()
-        if n in keys:
-            dict[n] += 1
-        else:
-            dict[n] = 1
-    return dict
-print(char_frequency('google.com'))
+def word count(str):
+       count=dict()
+       words=str.split()
+ for wort in wodts:
+ if word in counts:
+       counts[word]+=1
+ else:
+       count[word]=1
+    return count
+  print(word count('the quick brown for jumps over the lazy cat.'))
