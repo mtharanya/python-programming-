@@ -6,5 +6,5 @@
   temp=x
   x=y
   y=temp
- print('the value of x after swapping:{}'.formate)
- print('the value of y after swapping:{}'.formate)
+ print('the value of x after swapping:{}'.formate(x))
+ print('the value of y after swapping:{}'.formate(y))
