@@ -1,7 +1,7 @@
-m=int(input("Enter number: "))
+n=int(input("Enter number: "))
 rev=0
-while(m>0):
-    dig=m%10
+while(n>0):
+    dig=n%10
     rev=rev*10+dig
-    m=m//10
+     n=n//10
 print("Reverse of the number:",rev)
